@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🎮 Playing VALORANT"];
-const statusTypes = ['idle'];
+const statusTypes = ['active'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
